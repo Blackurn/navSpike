@@ -11,7 +11,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [AppComponent, NavComponent],
@@ -25,7 +24,6 @@ import { MatSliderModule } from '@angular/material/slider';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
