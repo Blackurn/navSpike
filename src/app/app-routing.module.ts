@@ -7,6 +7,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./client/client.module').then((m) => m.ClientModule),
   },
+  {
+    path: 'placement',
+    loadChildren: () =>
+      import('./placement/placement.module').then((m) => m.PlacementModule),
+  },
 ];
 
 @NgModule({

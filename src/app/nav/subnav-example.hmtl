@@ -1,0 +1,12 @@
+<app-subnav>
+
+   <app-subnav-search></app-subnav-search>
+
+   <app-subnav-current></app-subnav-current>
+
+   <app-subnav-pinned></app-subnav-pinned>
+
+   <app-subnav-recent></app-subnav-recent>
+
+    <app-subnav-content></app-subnav-content>
+</app-subnav>
